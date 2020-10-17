@@ -1,28 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
-
-
-
-
-{% include shared/head.html %}
-
-  {% include shared/header.html %}
-
-    {% include home/splash.html %}
-
-{% include home/cta.html %}
-
-
-    {% include home/io-cupid.html %}
-
-    {% include home/featured-apps.html %}
-
-
-    {% include home/main_description.html %}
-
-    {% include home/supporters.html %}
+  {% include shared/head.html %} {% include shared/header.html %}
+  <main role="main">
+    <div class="container">
+      <div class="jumbotron bg-white">
+        <div class="container">
+          <h1 class="display-3">Code for Buffalo</h1>
+          <p class="lead">
+            A
+            <a href="https://www.codeforamerica.org/">Code for America</a>
+            brigade and grassroots organization.
+          </p>
+          <hr class="my-4" />
+          <p>
+            Code for Buffalo addresses local social and civic challenges through
+            creative uses of technology. Despite the name, we're not solely
+            focused on coding! We foster relationships between government,
+            nonprofit, academic, for-profit companies, residents, civic
+            technologists, analysts, designers, and many more. All are welcome!
+          </p>
+          <a
+            class="btn btn-primary btn-lg rounded-pill"
+            href="/projects/"
+            role="button"
+            >See our projects</a
+          >
+          
+          <a
+            class="btn btn-primary btn-lg rounded-pill ml-2"
+            href="https://join.slack.com/t/codeforbuffalo/shared_invite/enQtMzk5NzA5MjA4NTQ0LTcxYjFkNGY4NTRlZmJlMTAxZDEyMDMxODlkNjdlMDE1ZTM3MmM4ZDQyYzRmMDA5MDRiZGM3ZDM3ZWQ5NDBkZTQ"
+            role="button"
+            >Say hi on Slack</a
+          >
+          <a
+            class="btn btn-primary btn-lg rounded-pill ml-2"
+            href="https://www.meetup.com/CodeForBuffalo/"
+            role="button"
+            >Join us on Meetup</a
+          >
+        </div>
+      </div>
+    </div>
+  </main>
 
   {% include shared/footer.html %}
-
 </html>

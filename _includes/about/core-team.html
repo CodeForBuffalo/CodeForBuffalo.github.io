@@ -1,0 +1,8 @@
+<div class="row">
+{% for member in site.data.core-team %}
+<div class="col-6 col-md-3">
+<img class="img-thumbnail" src="/images/headshots/{{ member.headshot }}" />
+<h4>{{ member.name }}</h4>
+</div>
+{% endfor %}
+</div>

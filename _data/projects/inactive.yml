@@ -1,0 +1,21 @@
+- name: Traffic Stop Data Monitoring
+  elevatorPitch: >
+    Buffalo police data on traffic stops is not made public, so the Fair Fines and Fees Coalition and Code for Buffalo created a webpage for motorists to monitor their interactions with the police.
+  url: https://www.fairfinesnofees.com/
+  partner:
+    - name: Fair Fines and Fees Coalition
+      url: https://www.facebook.com/FairFinesFeesBuffalo/
+  status: Completed
+  press: 
+    - title: WBFO - NPR
+      url: https://news.wbfo.org/post/new-tool-monitors-motorists-interactions-police
+
+- name: City Auction Map
+  elevatorPitch: >
+    An interactive map of the 2018 city auction lots to help PUSH Buffalo identify strategic nearby lots.
+  repository: https://github.com/CodeForBuffalo/cityauction
+  partner:
+    - name: PUSH Buffalo
+      url: https://www.pushbuffalo.org/
+  status: Completed
+  technologies: Python, Folium
