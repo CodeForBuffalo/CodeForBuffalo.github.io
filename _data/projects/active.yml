@@ -1,0 +1,23 @@
+- name: Get Water Wise Buffalo
+  elevatorPitch: >
+    A website to apply for Buffalo's Affordable Water Programs
+  repository: https://github.com/CodeForBuffalo/affordable_water
+  url: https://getwaterwisebuffalo.org
+  partner:
+    - name: Buffalo Water
+      url: https://buffalowater.org/
+  technologies: Python, Django, AWS
+  looking for: >
+    Translation help
+  status: Actively Maintained
+
+- name: Buffalo Mutual Aid Website
+  elevatorPitch: >
+    The Buffalo Mutual Aid Network is a social action group for peer-to-peer organizing, humanitarian assistance, and reliable information sharing developed in response to the COVID-19 crisis.
+  repository: https://github.com/CodeForBuffalo/buffalo_mutual_aid
+  url: https://buffalomutualaid.org/
+  partner:
+    - name: Buffalo Mutual Aid Network
+      url: https://www.facebook.com/groups/740052889874229/permalink/740054249874093/
+  technologies: Python, Django
+  status: On Hold

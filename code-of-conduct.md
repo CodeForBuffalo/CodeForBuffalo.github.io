@@ -1,12 +1,10 @@
 ---
 title: Code of Conduct
-author: Code for Buffalo
 layout: default
 permalink: /code-of-conduct/
 ---
 
----
-The Code for Buffalo community expects that Code for Buffalo networks activities, events, and digital forums:
+## The Code for Buffalo community expects that Code for Buffalo networks activities, events, and digital forums:
 
 1. Are a safe and respectful environment for all participants.
 2. Are a place where people are free to fully express their identities.
@@ -23,13 +21,7 @@ The Code for Buffalo community expects that Code for Buffalo networks activities
 
 Code for Buffalo, as a brigade of Code For America, reserves the right to ask anyone in violation of these policies not to participate in Code for Buffalo network activities, events, and digital forums.
 
-#### Code for Buffalo's Anti-Harassment Policy
-
-This anti-harassment policy is based on <a href="http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy">the example policy</a> from the Geek Feminism wiki, created by the Ada Initiative and other volunteers.
-
-This policy is based on several other policies, including the Ohio LinuxFest anti-harassment policy, written by Esther Filderman and Beth Lynn Eicher, and the Con Anti-Harassment Project. Mary Gardiner, Valerie Aurora, Sarah Smith, and Donna Benjamin generalized the policies and added supporting material. Many members of LinuxChix, Geek Feminism and other groups contributed to this work.
-
-* * *
+## Code for Buffalo's Anti-Harassment Policy
 
 All Code for Buffalo network activities, events, and digital forums and their staff, presenters, and participants are held to an anti-harassment policy, included below.
 
@@ -41,7 +33,7 @@ Harassment includes but is not limited to: offensive verbal or written comments 
 
 If a participant engages in harassing behavior, the organizers may take any action they deem appropriate, including warning the offender or expulsion from Code for America network activities, events, and digital forums.
 
-If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of the event staff or forum administrator immediately. You can contact them at mpbrown@buffalo.edu or call (716) 392-0747. Event staff or forum administrators will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the event.
+If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of the event staff or forum administrator immediately. You can contact them at <leadership@codeforbuffalo.org>. Event staff or forum administrators will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the event.
 
 If you cannot reach an event organizer or forum administrator and/or it is an emergency, please call 911 and/or remove yourself from the situation.
 
@@ -49,7 +41,7 @@ You can also contact Code for America about harassment at safespace@codeforameri
 
 We value your attendance and hope that by communicating these expectations widely we can all enjoy a harassment-free environment.
 
-#### Email Template for Anti-Harassment Reporting
+### Email Template for Anti-Harassment Reporting
 
 SUBJECT: Safe Space alert at [EVENT NAME]
 
