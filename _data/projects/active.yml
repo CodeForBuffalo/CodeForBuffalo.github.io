@@ -12,7 +12,11 @@
   status: Actively Maintained
   press:
     - title: Mayor's Press Release
+      category: Press
       url: https://www.buffalony.gov/CivicAlerts.aspx?AID=689
+    - title: Facebook Marketing
+      category: Social Media
+      url: https://www.facebook.com/LGWaterWise/?ref=page_internal
 
 - name: Buffalo Mutual Aid Website
   elevatorPitch: >

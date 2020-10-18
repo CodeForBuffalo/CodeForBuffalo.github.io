@@ -8,6 +8,7 @@
   status: Completed
   press: 
     - title: WBFO - NPR
+      category: Press
       url: https://news.wbfo.org/post/new-tool-monitors-motorists-interactions-police
 
 - name: City Auction Map

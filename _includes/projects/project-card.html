@@ -55,7 +55,7 @@
         {% endif %} {% if project.press %} {% for press in project.press
           %}
         <div class="row">
-          <div class="col font-weight-bold">Press</div>
+          <div class="col font-weight-bold">{{ press.category }}</div>
           <div class="col"><a href="{{ press.url }}">{{ press.title }}</a></div>
         </div>
         {% endfor %} {% endif %}
