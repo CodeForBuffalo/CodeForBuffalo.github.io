@@ -27,4 +27,4 @@
     - name: Buffalo Mutual Aid Network
       url: https://www.facebook.com/groups/740052889874229/permalink/740054249874093/
   technologies: Python, Django
-  status: On Hold
+  status: Actively Maintained
