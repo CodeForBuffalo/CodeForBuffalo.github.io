@@ -12,8 +12,8 @@ The following initiatives are currently underway and accepting contributors. Pro
 {% endfor %}
 
 ---
-## Delivered Projects
+## Former Projects
 
-{% for project in site.data.projects.inactive %}
+{% for project in site.data.projects.former %}
 {% include projects/project-card.html %}
 {% endfor %}
