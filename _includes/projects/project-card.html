@@ -2,7 +2,7 @@
 <div class="card">
   <div class="card-body">
     <div class="row">
-      <div class="col">
+      <div class="col-sm-12 col-md-6">
         {% if project.url %}
         <h3 class="card-title">
           <a href="{{ project.url }}">{{ project.name }}</a>
@@ -15,8 +15,8 @@
       <div class="col">
         {% if project.status %}
         <div class="row">
-          <div class="col font-weight-bold">Status</div>
-          <div class="col">
+          <div class="col-sm-12 col-md-6 font-weight-bold">Status</div>
+          <div class="col-sm-12 col-md-6">
              {% if project.status == "Completed" %}
             <span class="badge badge-pill badge-success">{{ project.status }}</span>
             {% elsif project.status == "Actively Maintained" %}
@@ -29,19 +29,19 @@
         {% endif %}
         {% if project.repository %}
         <div class="row">
-          <div class="col font-weight-bold">Code Repository</div>
-          <div class="col"><a href="{{ project.repository }}">GitHub</a></div>
+          <div class="col-sm-12 col-md-6 font-weight-bold">Code Repository</div>
+          <div class="col-sm-12 col-md-6"><a href="{{ project.repository }}">GitHub</a></div>
         </div>
         {% endif %} {% if project.technologies %}
         <div class="row">
-          <div class="col font-weight-bold">Technologies</div>
-          <div class="col">{{ project.technologies }}</div>
+          <div class="col-sm-12 col-md-6 font-weight-bold">Technologies</div>
+          <div class="col-sm-12 col-md-6">{{ project.technologies }}</div>
         </div>
         {% endif %} {% if project.partner %} {% for partner in project.partner
         %}
         <div class="row">
-          <div class="col font-weight-bold">Partner</div>
-          <div class="col">
+          <div class="col-sm-12 col-md-6 font-weight-bold">Partner</div>
+          <div class="col-sm-12 col-md-6">
             {% if partner.url %}
             <a href="{{ partner.url }}">{{ partner.name }}</a>
             {% endif %}
@@ -49,14 +49,14 @@
         </div>
         {% endfor %} {% endif %} {% if project.lead %}
         <div class="row">
-          <div class="col font-weight-bold">Lead</div>
-          <div class="col">{{ project.lead }}</div>
+          <div class="col-sm-12 col-md-6 font-weight-bold">Lead</div>
+          <div class="col-sm-12 col-md-6">{{ project.lead }}</div>
         </div>
         {% endif %} {% if project.press %} {% for press in project.press
           %}
         <div class="row">
-          <div class="col font-weight-bold">{{ press.category }}</div>
-          <div class="col"><a href="{{ press.url }}">{{ press.title }}</a></div>
+          <div class="col-sm-12 col-md-6 font-weight-bold">{{ press.category }}</div>
+          <div class="col-sm-12 col-md-6"><a href="{{ press.url }}">{{ press.title }}</a></div>
         </div>
         {% endfor %} {% endif %}
       </div>
