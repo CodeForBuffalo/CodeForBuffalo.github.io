@@ -1,6 +1,6 @@
 - name: Get Water Wise Buffalo
   elevatorPitch: >
-    A website to apply for Buffalo's Affordable Water Programs
+    A website for low income residents to apply for financial assistance on their Buffalo Water bill. This project was launched through the 2019 Code for America Community Fellowship.
   repository: https://github.com/CodeForBuffalo/affordable_water
   url: https://getwaterwisebuffalo.org
   partner:
